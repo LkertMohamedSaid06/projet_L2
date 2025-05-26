@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Explore Europe</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 40px 20px;
+      position: relative;
+      z-index: 0;
+    }
+
+    .background-image {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('/images&video/17434.jpg');
+      background-size: cover;
+      background-position: center;
+      filter: blur(8px) brightness(0.6);
+      z-index: -1;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: white;
+      font-size: 3.5em;
+    }
+
+    .country-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .country-card {
+      display: flex;
+      background: rgba(0, 0, 0, 0.555);
+      border-radius: 20px;
+      border: 2px solid #ddd;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .country-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .country-card img {
+      width: 50%;
+      object-fit: cover;
+    }
+
+    .country-info {
+      padding: 20px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .country-name {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 15px;
+      color: #ffffff;
+    }
+
+    .explore-button {
+      align-self: start;
+      padding: 10px 20px;
+      background-color: #fbb104;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .explore-button:hover {
+      background-color: #ac8325;
+    }
+
+    .home-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.575);
+  color: #fbb104;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 10;
+  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #fba504;
+  color: white;
+}
+
+
+    @media (max-width: 1000px) {
+      .country-list {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .country-card {
+        flex-direction: column;
+      }
+
+      .country-card img {
+        width: 100%;
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+<body id="top">
+
+  <div class="background-image"></div>
+
+  <h1>Explore European Countries</h1>
+
+  <a href="/Web-site/projet.html" class="home-button">Home</a>
+
+  <div class="country-list">
+    <div class="country-card">
+      <img src="/images&video/878.jpg" alt="France">
+      <div class="country-info">
+        <div class="country-name">France</div>
+        <a href="#" onclick="goToCountry('france')" class="explore-button">Explore</a>
+
+      </div>
+    </div>
+
+    <div class="country-card">
+      <img src="/images&video/16488.jpg" alt="Italy">
+      <div class="country-info">
+        <div class="country-name">Italy</div>
+        <a href="#" onclick="goToCountry('italy')" class="explore-button">Explore</a>
+
+      </div>
+    </div>
+
+    <div class="country-card">
+      <img src="/images&video/803.jpg" alt="Germany">
+      <div class="country-info">
+        <div class="country-name">Germany</div>
+                <a href="#" onclick="goToCountry('germany')" class="explore-button">Explore</a>
+
+      </div>
+    </div>
+    
+    <div class="country-card">
+      <img src="/images&video/2169.jpg" alt="Spain">
+      <div class="country-info">
+        <div class="country-name">Spain</div>
+                <a href="#" onclick="goToCountry('spain')" class="explore-button">Explore</a>
+
+      </div>
+    </div>
+    
+    <div class="country-card">
+      <img src="/images&video/1400.jpg" alt="United Kingdom">
+      <div class="country-info">
+        <div class="country-name">United Kingdom</div>
+                <a href="#" onclick="goToCountry('uk')" class="explore-button">Explore</a>
+
+      </div>
+    </div>
+    
+    <div class="country-card">
+      <img src="/images&video/9643.jpg" alt="Austria">
+      <div class="country-info">
+        <div class="country-name">Austria</div>
+                <a href="#" onclick="goToCountry('austria')" class="explore-button">Explore</a>
+
+      </div>
+    </div>
+    
+    <div class="country-card">
+      <img src="/images&video/44344.jpg" alt="Belgium">
+      <div class="country-info">
+        <div class="country-name">Belgium</div>
+                <a href="#" onclick="goToCountry('belgium')" class="explore-button">Explore</a>
+
+      </div>
+    </div>
+    
+    <div class="country-card">
+      <img src="/images&video/41127.jpg" alt="Netherlands">
+      <div class="country-info">
+        <div class="country-name">Netherlands</div>
+        <a href="#" onclick="goToCountry('netherlands')" class="explore-button">Explore</a>
+        
+      </div>
+    </div>
+    
+    <div class="country-card">
+      <img src="/images&video/43081.jpg" alt="Czech Republic">
+      <div class="country-info">
+        <div class="country-name">Czech Republic</div>
+                <a href="#" onclick="goToCountry('czech')" class="explore-button">Explore</a>
+
+      </div>
+    </div>
+    
+    <div class="country-card">
+      <img src="/images&video/41802.jpg" alt="Hungary">
+      <div class="country-info">
+        <div class="country-name">Hungary</div>
+                <a href="#" onclick="goToCountry('hungary')" class="explore-button">Explore</a>
+
+      </div>
+    </div>
+
+    <div class="country-card">
+      <img src="/images&video/2151664665.jpg" alt="Greece">
+      <div class="country-info">
+        <div class="country-name">Greece</div>
+                <a href="#" onclick="goToCountry('greece')" class="explore-button">Explore</a>
+
+      </div>
+    </div>
+
+    <div class="country-card">
+      <img src="/images&video/30087.jpg" alt="Denmark">
+      <div class="country-info">
+        <div class="country-name">Denmark</div>
+                <a href="#" onclick="goToCountry('denmark')" class="explore-button">Explore</a>
+
+      </div>
+    </div>
+
+    <div class="country-card">
+      <img src="/images&video/2295.jpg" alt="Sweden">
+      <div class="country-info">
+        <div class="country-name">Sweden</div>
+                <a href="#" onclick="goToCountry('sweden')" class="explore-button">Explore</a>
+
+      </div>
+    </div>
+
+    <div class="country-card">
+      <img src="/images&video/28696.jpg" alt="Finland">
+      <div class="country-info">
+        <div class="country-name">Finland</div>
+                <a href="#" onclick="goToCountry('finland')" class="explore-button">Explore</a>
+
+      </div>
+    </div>
+
+  </div>
+
+
+   <script>
+  function goToCountry(country) {
+    window.location.href = `/pays/italie-rome.html?country=${country}`;
+  }
+   </script>
+
+</body>
+</html>
