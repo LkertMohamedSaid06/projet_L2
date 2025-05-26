@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajando</title>
+    <link rel="stylesheet" href="./projet.css">
+</head>
+<body id="top"> 
+        <header>
+        <nav>
+            <img src="./WB_img/logo.png" alt="Logo" class="logo">
+            <ul class="menu">
+                <li class="fin"><a href="#home">Accueil</a></li>
+                <li class="fin"><a href="#destinations">Destinations</a></li>
+                <li class="fin"><a href="#culture">Culture</a></li>
+                <li class="fin"><a href="#" >Map</a>
+                    <ul class="dropdown">
+                        <li><a href="/map-europe.html">Europe</a></li>
+                        <li><a href="/map-afrique.html">Afrique</a></li>
+                        <li><a href="#">Asie</a></li>
+                        <li><a href="/north-america.html">Amérique</a></li>
+                        <li><a href="/map-aust.html">Océanie</a></li>
+                    </ul>
+                </li>
+                <li class="fin"><a href="/logIn/index.html">Login</a></li>
+                <!-- <li class="fin"><a href="#">Sign up</a></li> -->
+
+                <li class="hamburger">
+                    <a href="#">
+                        <div class="bar"></div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+<section class="parallax">
+    <img src="./WB_img/discover_Bg.png" alt="background" id="bg">
+    <h3 class="text1" id="text1">DISCOVER</h3>
+    <img src="./WB_img/discover_nonBg.png" alt="noBg" id="noBg">
+</section>
+
+
+<section id="destinations" class="content-section">
+
+  <div class="section1">
+
+      <div class="vignette-radiale"></div>
+    <video id="video" src="" preload="auto" muted></video>
+
+    <div class="container" id="overlay">
+
+            <div class="video-wrapper" id="videoWrapper">
+      <video id="myVideo" src="/images&video/wood video.mp4" preload="auto" muted></video>
+            </div>
+    
+<script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.96/build/spline-viewer.js"></script>
+<spline-viewer class="mySpline" url="https://prod.spline.design/aXiy8VqoIYy7fNTH/scene.splinecode"></spline-viewer>
+   
+    <button class="explore-btn1">Explore</button>
+
+
+    <button class="play-btn" id="playBtn"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16"><path fill="currentColor" d="M8 1c3.9 0 7 3.1 7 7s-3.1 7-7 7s-7-3.1-7-7s3.1-7 7-7zm0-1C3.6 0 0 3.6 0 8s3.6 8 8 8s8-3.6 8-8s-3.6-8-8-8z"/><path fill="currentColor" d="M6 4v8l6-4z"/></svg></button>
+
+    <button class="close-btn" id="closeBtn">✖</button>
+    <div class="blur-background" id="blurBg"></div>
+
+    <div class="title">
+
+        <h1 class="scroll-animate">Welcome to your next adventure </h1>
+        <p class="scroll-animate">Whether you’re chasing sunsets in Asia, wandering through ancient cities, or simply daydreaming about your next escape, this site is here to fuel your wanderlust. Discover captivating destinations, unique cultural insights, and travel tips to make every journey unforgettable. From bustling markets to serene landscapes, we take you beyond the guidebooks—into the heart of every place. Pack your curiosity, and let’s explore the world together. </p>
+    </div>
+
+    </div>
+
+  </div>
+    </section>
+    
+    <section>
+        
+        <div class="slider">
+            <!-- list Items -->
+            <div class="list">
+                <div class="item active"> <!-- Élément actif du slider -->
+                    <div class="fog">
+                        <img src="/Web-site/WB_img/black_shadowDown.png" alt="">
+                    </div>
+                    <div class="fog2">
+                        <img src="/Web-site/WB_img/black_shadowUp.png" alt="">
+                    </div>
+                    <img src="/images&video/afrique.jpg"> <!-- Image du slider -->
+                    <div class="carre-noir"></div>
+                    <div class="content">
+                        <p>design</p> <!-- Catégorie ou description courte -->
+                        <h2>AFRIQUE</h2> <!-- Titre du slider -->
+                        <p>
+                           Golden savannas stretch to the horizon, where elephants roam under an amber sky. The call of tribal drums echoes through bustling markets filled with vibrant fabrics and ancient rhythms. From endless deserts to tropical jungles, this land is alive with stories whispered by the wind.
+                        </p> <!-- Description du slider -->
+                        <a href="#" class="explore-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="item"> <!-- Élément du slider -->
+                    <div class="fog">
+                        <img src="/Web-site/WB_img/black_shadowDown.png" alt="">
+                    </div>
+                    <div class="fog2">
+                        <img src="/Web-site/WB_img/black_shadowUp.png" alt="">
+                    </div>
+                    <img src="/images&video/euroope.jpg"> <!-- Image du slider -->
+                    <div class="carre-noir"></div>
+                    <div class="content">
+                        <p>design</p> <!-- Catégorie ou description courte -->
+                        <h2>EUROPE</h2> <!-- Titre du slider -->
+                        <p>
+                            Winding alleys lead to hidden cafés where history lingers in every stone. Art, music, and passion spill onto cobblestone streets as centuries of culture breathe through every cathedral and museum. Snowy peaks, sun-drenched beaches, and languages that sing — it’s like walking through a living storybook.
+                        </p> <!-- Description du slider -->
+                        <a href="/pays-pour-chaque-continent/pays-continent.html" class="explore-btn">Explore</a>
+                </div>
+            </div>
+            <div class="item"> <!-- Élément du slider -->
+                    <div class="fog">
+                        <img src="/Web-site/WB_img/black_shadowDown.png" alt="">
+                    </div>
+                    <div class="fog2">
+                        <img src="/Web-site/WB_img/black_shadowUp.png" alt="">
+                    </div>
+                <img src="/images&video/asiaa.jpg"> <!-- Image du slider -->
+                <div class="carre-noir"></div>
+                <div class="content">
+                    <p>design</p> <!-- Catégorie ou description courte -->
+                    <h2>ASIA</h2> <!-- Titre du slider -->
+                    <p>
+                        In one moment, you’re sipping tea in a centuries-old temple; the next, you’re gliding on a high-speed train past neon-lit skyscrapers. Spice-filled air, crowded street markets, sacred mountains, and futuristic skylines — here, tradition and innovation live side by side in perfect harmony.
+                    </p> <!-- Description du slider -->
+                    <a href="#" class="explore-btn">Explore</a>
+                </div>
+            </div>
+            <div class="item"> <!-- Élément du slider -->
+                    <div class="fog">
+                        <img src="/Web-site/WB_img/black_shadowDown.png" alt="">
+                    </div>
+                    <div class="fog2">
+                        <img src="/Web-site/WB_img/black_shadowUp.png" alt="">
+                    </div>
+                <img src="/images&video/view-statue-liberty-new-york-city.jpg"> <!-- Image du slider -->
+                <div class="carre-noir"></div>
+                <div class="content">
+                    <p>design</p> <!-- Catégorie ou description courte -->
+                    <h2>AMERICA</h2> <!-- Titre du slider -->
+                    <p>
+                        Endless highways stretch through deserts and forests. Skyscrapers scrape the clouds while deep canyons carve the earth below. It’s a place of extremes — loud, vast, and full of dreams. Cultures collide in neon-lit cities and quiet towns, each one telling a story of ambition and freedom.
+                    </p> <!-- Description du slider -->
+                    <a href="#" class="explore-btn">Explore</a>
+                </div>
+            </div>
+            <div class="item"> <!-- Élément du slider -->
+                    <div class="fog">
+                        <img src="/Web-site/WB_img/black_shadowDown.png" alt="">
+                    </div>
+                    <div class="fog2">
+                        <img src="/Web-site/WB_img/black_shadowUp.png" alt="">
+                    </div>
+                <img src="/images&video/australie.jpg"> <!-- Image du slider -->
+                <div class="carre-noir"></div>
+                <div class="content">
+                    <p>design</p> <!-- Catégorie ou description courte -->
+                    <h2>OCEANIA</h2> <!-- Titre du slider -->
+                    <p>
+                        Far from everything, you land where the sky meets the sea. Coral reefs bloom beneath the waves, volcanoes sleep on lush green islands, and the stars shine brighter than you’ve ever seen. Here, nature sings softly and freely.
+                    </p> <!-- Description du slider -->
+                    <a href="#" class="explore-btn">Explore</a>
+                </div>
+            </div>
+            
+        </div>
+        <!-- button arrows -->
+        <div class="arrows"> <!-- Flèches de navigation du slider -->
+            <button id="prev"><</button> <!-- Bouton pour aller à l'élément précédent -->
+            <button id="next">></button> <!-- Bouton pour aller à l'élément suivant -->
+        </div>
+        
+
+
+
+<div class="dots-vertical">
+  <div class="nav-line"></div>
+  <div class="dot active"></div>
+  <div class="dot"></div>
+  <div class="dot"></div>
+  <div class="dot"></div>
+  <div class="dot"></div>
+</div>
+        <!-- thumbnail -->
+        <div class="thumbnail"> <!-- Vignettes du slider -->
+            <div class="item active"> <!-- Élément actif de la vignette -->
+                <img src="/images&video/afrique.jpeg"> <!-- Image de la vignette -->
+                <div class="content">
+                    Afrique <!-- Nom de la vignette -->
+                </div>
+            </div>
+            <div class="item"> <!-- Élément de la vignette -->
+                <img src="/images&video/paris.jpeg"> <!-- Image de la vignette -->
+                <div class="content">
+                    Europe <!-- Nom de la vignette -->
+                </div>
+            </div>
+            <div class="item"> <!-- Élément de la vignette -->
+                <img src="/images&video/asie.jpeg"> <!-- Image de la vignette -->
+                <div class="content">
+                    Asia <!-- Nom de la vignette -->
+                </div>
+            </div>
+            <div class="item"> <!-- Élément de la vignette -->
+                <img src="/images&video/amerique 2.jpg"> <!-- Image de la vignette -->
+                <div class="content">
+                    America <!-- Nom de la vignette -->
+                </div>
+            </div>
+            <div class="item"> <!-- Élément de la vignette -->
+                <img src="/images&video/australie.png"> <!-- Image de la vignette -->
+                <div class="content">
+                    Oceania <!-- Nom de la vignette -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="slider-topD">
+    <div class="extra-img img1">
+        <img src="/Web-site/WB_img/black_shadowDown.png" alt="">
+    </div>
+    <div class="extra-img img2">
+        <img src="/Web-site/WB_img/black_shadowUp.png" alt="">
+    </div>
+    <div class="slider-bg"></div>
+    <h3 class="text-top-d">Top Destination</h3>
+    <p class="paragraphe-top-d">From sunny beaches to hidden gems, explore the best places to travel this year.</p>
+    <div class="slider-container" id="sliderContainer1">
+    <div class="slider-track" id="sliderTrack1">
+      <div class="slide">
+        <img src="/images&video/tokyoJ.jpg" alt="Image 1" />
+        <div class="slide-content">
+          <div class="text">Tokyo, Japon</div>
+          <button onclick="goToCountry('japan')">Explore</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="/images&video/romeI.jpg" alt="Image 2" />
+        <div class="slide-content">
+          <div class="text">Rome, Italie</div>
+          <button onclick="goToCountry('italy')">Explore</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="/images&video/cape town.jpg" alt="Image 3" />
+        <div class="slide-content">
+          <div class="text">Cape Town, Afrique du Sud</div>
+          <button onclick="goToCountry('southAfrica')">Explore</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="/images&video/NY.jpg" alt="Image 4" />
+        <div class="slide-content">
+          <div class="text">New York, États-Unis</div>
+          <button onclick="goToCountry('usa')">Explore</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="/images&video/BaliI.jpg" alt="Image 5" />
+        <div class="slide-content">
+          <div class="text">Bali, Indonésie</div>
+          <button onclick="goToCountry('indonesia')">Explore</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slider-container" id="sliderContainer2">
+    <div class="slider-track" id="sliderTrack2">
+      <div class="slide">
+        <img src="/images&video/parisF.jpg" alt="Image 6" />
+        <div class="slide-content">
+          <div class="text">Paris, France</div>
+          <button onclick="goToCountry('france')">Explore</button>
+
+        </div>
+      </div>
+      <div class="slide">
+        <img src="/images&video/sydneyA.jpg" alt="Image 7" />
+        <div class="slide-content">
+          <div class="text">Sydney, Australia</div>
+          <button onclick="goToCountry('australia')">Explore</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="/images&video/reykjavik.jpg" alt="Image 8" />
+        <div class="slide-content">
+          <div class="text">Reykjavik, Icland</div>
+          <button onclick="goToCountry('iceland')">Explore</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="/images&video/tizi ouzou.jpg" alt="Image 9" />
+        <div class="slide-content">
+          <div class="text">Tizi ouzou , Algeria</div>
+          <button onclick="goToCountry('algeria')">Explore</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="/images&video/buenos aires.jpg" alt="Image 10" />
+        <div class="slide-content">
+          <div class="text">Buenos Aires, Argentine</div>
+          <button onclick="goToCountry('argentina')">Explore</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slider-container" id="sliderContainer3">
+    <div class="slider-track" id="sliderTrack3">
+      <div class="slide">
+        <img src="/images&video/Vancouver, Canada.jpg" alt="Image 11" />
+        <div class="slide-content">
+          <div class="text">Vancouver, Canada</div>
+          <button onclick="goToCountry('canada')">Explore</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="/images&video/Lisbonne, Portugal.jpg" alt="Image 12" />
+        <div class="slide-content">
+          <div class="text">Lisbonne, Portugal</div>
+          <button onclick="goToCountry('portugal')">Explore</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="/images&video/Singapour.jpg" alt="Image 13" />
+        <div class="slide-content">
+          <div class="text">Singapour</div>
+          <button onclick="goToCountry('singapore')">Explore</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="/images&video/santorin grece.jpg" alt="Image 14" />
+        <div class="slide-content">
+          <div class="text">Santorin, Greece</div>
+          <button onclick="goToCountry('greece')">Explore</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="/images&video/Queenstown, Nouvelle-Zélande.jpg" alt="Image 15" />
+        <div class="slide-content">
+          <div class="text">Queenstown, Nouvelle-Zélande</div>
+          <button onclick="goToCountry('newzealand')">Explore</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pack-honeymoon">
+    <h3 class="pack-h">Honeymoon</h3>
+    <p class="pack-h-sub">  Discover dreamy destinations designed for two.<br>
+  Let your honeymoon be the beginning of a lifelong adventure..</p>
+    <div class="vignette-radiale"></div>
+    
+    <div class="fog-moon">
+        <img src="/Web-site/WB_img/black_shadowDown.png" alt="">
+    </div>
+    <div class="fog-moonUp">
+        <img src="/Web-site/WB_img/black_shadowUp.png" alt="">
+    </div>
+    <div class="carousel-container">
+  <div class="carousel" id="carousel">
+    <div class="card">
+        <img src="/iloveimg-compressed/bali.jpg" alt="">
+        <h2>Indonesia</h2>
+        <p>Bali</p>
+        <button onclick="goToCountry('indonesia')" class="explore-btnn">Explore</button>
+    </div>
+    <div class="card">
+        <img src="/iloveimg-compressed/islande.jpg" alt="">
+        <h2>Island</h2>
+        <p>Goðafoss</p>
+        <button onclick="goToCountry('indonesia')" class="explore-btnn">Explore</button>
+    </div>
+    <div class="card">        
+        <img src="/iloveimg-compressed/kyoto.jpg" alt="">
+        <h2>Japan</h2>
+        <p>Kyoto</p>
+        <button onclick="goToCountry('japan')" class="explore-btnn">Explore</button>
+      </div>
+    <div class="card">       
+        <img src="/iloveimg-compressed/Sri Lanka.jpg" alt="">
+        <h2>Sri Lanka</h2>
+        <p>Tangalle</p>
+         <button onclick="goToCountry('australia')" class="explore-btnn">Explore</button>
+      </div>
+    <div class="card">        
+        <img src="/iloveimg-compressed/venise.jpg" alt="">
+        <h2>Italia</h2>
+        <p>Venise</p>
+         <button onclick="goToCountry('italy')" class="explore-btnn">Explore</button>
+      </div>
+  </div>
+
+  <div class="nav-buttons">
+  <button onclick="move(-1)">
+    <!-- Flèche gauche -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+         stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round"
+            d="M15.75 19.5 8.25 12l7.5-7.5" />
+    </svg>
+  </button>
+
+  <button onclick="move(1)">
+    <!-- Flèche droite -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+         stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round"
+            d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+    </svg>
+  </button>
+</div>
+
+</div>
+</section>
+    
+<section class="slide-hover-expand">
+    <div class="bg-layer"></div>
+    <h3 class="pack-hL">Activities</h3>
+    <p class="pack-h-subL">  Discover dreamy destinations designed for two.<br>
+  Let your honeymoon be the beginning of a lifelong adventure..</p>
+        <div class="fog-moon">
+        <img src="/Web-site/WB_img/black_shadowDown.png" alt="">
+    </div>
+        
+    <div class="fog-moonL">
+        <img src="/Web-site/WB_img/black_shadowUp.png" alt="">
+    </div>
+      <div class="hover-group">
+
+
+    <div class="hover-wrapper active">
+      <div class="hover-box"><img src="/images&video/lac usa.jpg" alt="img" class="hover-imageBg" /></div>
+      <div class="hover-text">Giant Paddleboarding</div>
+        <img src="/images&video/paddle geant.jpg" alt="img" class="hover-image" />
+  <button class="explore-btnnn">Explore</button>
+    </div>
+
+    <div class="hover-wrapper">
+      <div class="hover-box"><img src="/images&video/everest.jpg" alt="img" class="hover-imageBg" /></div>
+      <div class="hover-text">Mountain Climbing</div>
+        <img src="/images&video/Canyoning.jpg" alt="img" class="hover-image" />
+  <button class="explore-btnnn">Explore</button>
+    </div>
+
+    <div class="hover-wrapper">
+      <div class="hover-box"><img src="/images&video/vue en ciel.jpg" alt="img" class="hover-imageBg" /></div>
+      <div class="hover-text">Hang Gliding</div>
+        <img src="/images&video/deltaplane.jpg" alt="img" class="hover-image" />
+  <button class="explore-btnnn">Explore</button>
+    </div>
+
+    <div class="hover-wrapper">
+      <div class="hover-box"><img src="/images&video/foret.jpg" alt="img" class="hover-imageBg" /></div>
+      <div class="hover-text">Paintball</div>
+        <img src="/images&video/paintball.avif" alt="img" class="hover-image" />
+  <button class="explore-btnnn">Explore</button>
+    </div>
+
+    <div class="hover-wrapper">
+      <div class="hover-box"><img src="/images&video/poisson.jpg" alt="img" class="hover-imageBg" /></div>
+      <div class="hover-text">Scuba Diving</div>
+        <img src="/images&video/Snorkeling ou plongée.jpg" alt="img" class="hover-image" />
+  <button class="explore-btnnn">Explore</button>
+    </div>
+    <div class="hover-wrapper">
+      <div class="hover-box"><img src="/images&video/petite ile.jpg" alt="img" class="hover-imageBg" /></div>
+      <div class="hover-text">Treasure Hunt</div>
+        <img src="/images&video/chasse au tresor.jpg" alt="img" class="hover-image" />
+  <button class="explore-btnnn">Explore</button>
+    </div>
+    <div class="hover-wrapper">
+      <div class="hover-box">
+        <img src="/images&video/norvege.jpg" alt="img" class="hover-imageBg" />
+      </div>
+      <div class="hover-text">Northern Lights</div>
+        <img src="/images&video/aurore boreale.jpg" alt="img" class="hover-image" />
+  <button class="explore-btnnn">Explore</button>
+    </div>
+  </div>
+  </section>
+
+<footer class="footer-contact">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p>Have questions? We’d love to hear from you!</p>
+    <form class="contact-form" action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+
+      <button class="boutonL" type="submit">Send Message</button>
+    </form>
+    <div class="footer-info">
+      <p>Email: <a href="mailto:contact@yourdomain.com">contact@yourdomain.com</a></p>
+      <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+      <p>Address: 123 Your Street, Your City, Your Country</p>
+    </div>
+  </div>
+</footer>
+
+
+<script src="./projet.js"></script>
+</body>
+</html>
